@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizGroup</title>
+    <link rel="icon" type="image/png" href="Images/BizGroup Logo.png">
+    <link href="CSS/Layout.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <a href="home.html">
+                <img src="Images/BizGroup Logo.png" alt="Logo">
+                <h3>BizGroup</h3>
+            </a>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="Movies.html">Filmlər</a></li>
+                <li class="musiclink">Musiqilər</li>
+                <li>Talk Showlar</li>
+                <li><a href="EhliBiz.html">#ƏhliBiz</a></li>
+            </ul>
+            <div class="menubtn">
+                <div class="line-menu half begin"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu half end"></div>
+            </div>
+        </div>
+    </header>
+    <article id="menu">
+        <ul>
+            <li><a href="Movies.html">Filmlər</a></li>
+            <li class="musiclink">Musiqilər</li>
+            <li>Talk Showlar</li>
+            <li><a href="EhliBiz.html">#ƏhliBiz</a></li>
+        </ul>
+    </article>
+    <main>
+        <!--
+        <aside>
+            <ul>
+                <li class="active-page"><i class="fas fa-home"></i> <span>Ana Səhifə</span></li>
+                <li><i class="fas fa-film"></i> <span>Film və Seriallar</span></li>
+                <li><i class="fas fa-music"></i> <span>Musiqilər</span></li>
+            </ul>
+        </aside>
+        -->
+        <article>
+            <div class="banner">
+                <img src="Images/Banner.JPG" alt="">
+            </div>
+
+
+        </article>
+        <section id="movies-series">
+            <header>
+                <h1>Film və Seriallar</h1>
+                <h3><a href="Movies.html">Hamısına Bax</a></h3>
+            </header>
+            <div class="movies">
+                <div class="movie">
+                    <a href="Son_Arzum_Fahise.html">
+                        <img src="Images/Son Arzum Fahise.jpg" alt="">
+                        <h4>Son Arzum Fahişə</h4>
+                    </a>
+                </div>
+                <div class="movie">
+                    <a href="Adem_ve_Hevva.html">
+                        <img src="Images/Adem ve Hevva.jpg" alt="">
+                        <h4>S.Ə.S. 1: Adəm və Həvva</h4>
+                    </a>
+                </div>
+                <div class="movie">
+                    <a href="Cindir_Adamlar.html">
+                        <img src="Images/Cindir Adamlar.jpg" alt="">
+                        <h4>S.Ə.S. 2: Cındır Adamlar</h4>
+                    </a>
+                </div>
+                <div class="movie">
+                    <a href="Adem_ve_Lilit.html">
+                        <img src="Images/Adem ve Lilit.jpg" alt="">
+                        <h4>S.Ə.S. 3: Adəm və Lilit</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-movies">
+                <div class="movieimages">
+                    <a href="Adem_ve_Lilit.html"><img src="Images/Adem ve Lilit.jpg" alt=""></a>
+                    <a href="Cindir_Adamlar.html"><img src="Images/Cindir Adamlar.jpg" alt=""></a>
+                    <a href="Adem_ve_Hevva.html"><img src="Images/Adem ve Hevva.jpg" alt=""></a>
+                    <a href="Son_Arzum_Fahise.html"><img src="Images/Son Arzum Fahise.jpg" alt=""></a>
+                </div>
+            </div>
+
+        </section>
+        <section id="statistics">
+            <header>
+                <h2>Göstəricilərimiz</h0>
+            </header>
+            <div id="content">
+                <div class="videos statistic">
+                    <span class="material-icons">
+                        videocam
+                    </span>
+                    <h3 class="statisticCount" id="VideoCount"></h3>
+                    <p>Video</p>
+                </div>
+                <div class="views statistic">
+                    <span class="material-icons">
+                        trending_up
+                    </span>
+                    <h3 class="statisticCount" id="ViewCount"></h3>
+                    <p>İzlənmə</p>
+                </div>
+                <div class="subscribes statistic">
+                    <span class="material-icons">
+                        groups
+                    </span>
+                    <h3 class="statisticCount" id="SubscriberCount"></h3>
+                    <p>Abunə</p>
+                </div>
+            </div>
+        </section>
+        <section id="musics">
+            <header>
+                <h1>Musiqilər</h1>
+                <h3>Hamısına Bax</h3>
+            </header>
+            <article>
+                <div id="musiclist">
+                    <ul>
+                        <li data-music="Audio/Bele_Gozeldi_O.mp3">
+                            <img src="Images/Covers/Bele Gozeldi o cover.jpg" alt="">
+                            <div class="flex-column">
+                                <h4>Belə Gözəldir o</h4>
+                                <p>3:14</p>
+                            </div>
+                        </li>
+                        <li data-music="Audio/Cindir_Adamlar.mp3">
+                            <img src="Images/Covers/Cindir Adamlar cover.jpg" alt="">
+                            <div class="flex-column">
+                                <h4>Cındır Adamlar</h4>
+                                <p>4:01</p>
+                            </div>
+                        </li>
+                        <li data-music="Audio/Kimden_Sorusaq.mp3">
+                            <img src="Images/Covers/Kimden Sorusaq cover.jpg" alt="">
+                            <div class="flex-column">
+                                <h4>Kimdən Soruşaq</h4>
+                                <p>3:29</p>
+                            </div>
+                        </li>
+                        <li data-music="Audio/Sence_Neden.mp3">
+                            <img src="Images/Covers/Sence Neden cover.jpg" alt="">
+                            <div class="flex-column">
+                                <h4>Səncə Nədən?</h4>
+                                <p>5:00</p>
+                            </div>
+                        </li>
+                        <li data-music="Audio/Yasamaq_Lazim.mp3">
+                            <img src="Images/Covers/Yasamaq Lazim cover.jpg" alt="">
+                            <div class="flex-column">
+                                <h4>Yaşamaq Lazım</h4>
+                                <p>3:45</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="playmusic">
+                    <div id="musicdetails">
+                        <img src="Images/Covers/Bele Gozeldi o cover.jpg" alt="">
+                        <h3>Belə Gözəldir o</h3>
+                    </div>
+                    <div id="musicduration">
+                        <div class="seekbar-container">
+                            <div class="seekbar-inner"></div>
+                        </div>
+                        <div id="time">
+                            <p>00:00</p>
+                            <p>03:14</p>
+                        </div>
+                    </div>
+                    <div id="musicbuttons">
+                        <span class="material-icons previusmusic">
+                            skip_previous
+                        </span>
+                        <span class="material-icons main stop">
+                            pause
+                        </span>
+                        <span class="material-icons main start">
+                            play_arrow
+                        </span>
+                        <span class="material-icons nextmusic">
+                            skip_next
+                        </span>
+                    </div>
+                    <audio src="Audio/"></audio>
+                </div>
+            </article>
+        </section>
+        <section id="talkshow">
+            <header>
+                <h1>Talk Showlar</h1>
+                <h3>Hamısına Bax</h3>
+            </header>
+            <div class="movies">
+                <div class="movie">
+                    <img src="Images/TalkShow/Erkin Ergin.jpg" alt="">
+                    <h4>Erkin Ergin Deyir ki</h4>
+                </div>
+                <div class="movie">
+                    <img src="Images/TalkShow/Epi.jpg" alt="">
+                    <h4>Epi Deyir ki</h4>
+                </div>
+                <div class="movie">
+                    <img src="Images/TalkShow/Taleh Yuzbeyov.jpg" alt="">
+                    <h4>Taleh Yüzbəyov Deyir ki</h4>
+                </div>
+                <div class="movie">
+                    <img src="Images/TalkShow/Kenan Yusifov.jpg" alt="">
+                    <h4>Kənan Yusifov Deyir ki</h4>
+                </div>
+            </div>
+            <div class="scroll-movies">
+                <div class="movieimages">
+                    <a href="#"><img src="Images/TalkShow/Erkin Ergin.jpg" alt=""></a>
+                    <a href="#"><img src="Images/TalkShow/Epi.jpg" alt=""></a>
+                    <a href="#"><img src="Images/TalkShow/Taleh Yuzbeyov.jpg" alt=""></a>
+                    <a href="#"><img src="Images/TalkShow/Kenan Yusifov.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="rights">
+            <img src="Images/Baku Cms Media.png" alt="">
+            <h6>Müəllif hüquqları "Baku Cms Media" tərəfindən qorunur</h6>
+        </div>
+        <div class="social">
+            <h6>Musiqi platformalarından musiqilərimizi daha keyfiyyətli dinləyin</h6>
+            <div class="links">
+                <a href="https://music.apple.com/artist/mehdi-sadiq/1558798335" target="_blank">
+                    <div class="sociallink"><i class="fab fa-apple"></i></div>
+                </a>
+                <a href="https://www.deezer.com/us/artist/126717772" target="_blank">
+                    <div class="sociallink"><i class="fab fa-deezer"></i></div>
+                </a>
+                <a href="https://open.spotify.com/artist/7anHMpkOmYnjFeCxTqj1r6" target="_blank">
+                    <div class="sociallink"><i class="fab fa-spotify"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="social">
+            <h6>Sosial Şəbəkələrdə bizi daha yaxından izləyin</h6>
+            <div class="links">
+                <a href="https://www.youtube.com/channel/UC9O8fXQe-9JBtdEI3zotveQ" target="_blank">
+                    <div class="sociallink"><i class="fab fa-youtube"></i></div>
+                </a>
+                <a href="https://www.facebook.com/Bizgroup-1540199652736455" target="_blank">
+                    <div class="sociallink"><i class="fab fa-facebook"></i></div>
+                </a>
+                <a href="https://t.me/Bizgrouproduction" target="_blank">
+                    <div class="sociallink"><i class="fab fa-telegram"></i></div>
+                </a>
+                <a href="https://www.instagram.com/bizgroup_production/" target="_blank">
+                    <div class="sociallink"><i class="fab fa-instagram"></i></div>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $(".menubtn").click(function () {
+                $(this).toggleClass("menu-active");
+                $("#menu").slideToggle();
+            });
+            $(".musiclink").click(function () {
+                if ($(".menubtn").hasClass("menu-active")) {
+                    $(".menubtn").removeClass("menu-active");
+                    $("#menu").slideUp();
+                    $('html, body').animate({
+                        scrollTop: $("#musics header").offset().top - 240
+                    }, 500);
+                }
+                else {
+                    $('html, body').animate({
+                        scrollTop: $("#musics header").offset().top - 80
+                    }, 500);
+                }
+            });
+
+            var width = $(".scroll-movies .movieimages").width();
+            width = width / 10 * 8;
+            $(".scroll-movies .movieimages img").css("width", width);
+
+            
+        });
+    </script>
+    <script src="JavaScript/statistics.js"></script>
+    <script src="JavaScript/musicplayer.js"></script>
+</body>
+
+</html>
